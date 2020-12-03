@@ -2,9 +2,9 @@
 
 [comment]: <> (Markdown code generated with https://euangoddard.github.io/clipboard2markdown/)
 
-- [Day 01](day01)
-- [Day 02](day02)
-- Day 03
+- [Day 01](day-01)
+- [Day 02](day-02)
+- [Day 03](day-03)
 - Day 04
 - Day 05
 - Day 06

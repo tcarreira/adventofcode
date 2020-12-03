@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import fileinput
 import os
 import re
 import sys
@@ -7,6 +8,9 @@ from datetime import datetime
 curdir = os.path.dirname(os.path.realpath(__file__))
 sys.path.insert(1, curdir + "/aoc-to-markdown")
 import aoc_to_markdown
+
+year = datetime.now().year
+output_dir = f"{year}/"
 
 
 def setup_session_id() -> bool:
@@ -22,13 +26,10 @@ def setup_session_id() -> bool:
 
 
 def setup_program_arguments(last=False):
-    year = datetime.now().year
-    output_dir = f"{year}/"
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
     sys.argv = [sys.argv[0], "-o", output_dir]
-
 
     if last:
         folder_syntax = re.compile("^day-(\\d+)$")
@@ -42,9 +43,23 @@ def setup_program_arguments(last=False):
         )
         sys.argv.append("-d")
         sys.argv.append(f"{last_day}")
-        
-    elif setup_session_id(): # don't download input again
+
+    elif setup_session_id():  # don't download input again
         sys.argv.append("-i")
+
+
+def update_readme():
+    with fileinput.FileInput(f"{output_dir}README.md", inplace=True) as f:
+        for line in f:
+            match = re.search("- Day ([0-9]{2})", line.strip())
+            if match:
+                day_str = match.group(1)
+                dirname = f"day-{day_str}"
+                if os.path.exists(f"{output_dir}{dirname}"):
+                    print(f"- [Day {day_str}]({dirname})")
+                    continue
+
+            print(line, end="", flush=True)
 
 
 def main():
@@ -55,7 +70,9 @@ def main():
         setup_program_arguments()
     elif len(sys.argv) == 2 and sys.argv[1] == "last":
         setup_program_arguments(last=True)
+
     aoc_to_markdown.main()
+    update_readme()
 
 
 if __name__ == "__main__":
