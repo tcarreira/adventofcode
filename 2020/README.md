@@ -11,7 +11,7 @@
 - [Day 07](day-07)
 - [Day 08](day-08)
 - [Day 09](day-09)
-- Day 10
+- [Day 10](day-10)
 - Day 11
 - Day 12
 - Day 13
