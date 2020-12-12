@@ -13,7 +13,7 @@
 - [Day 09](day-09)
 - [Day 10](day-10)
 - [Day 11](day-11)
-- Day 12
+- [Day 12](day-12)
 - Day 13
 - Day 14
 - Day 15
