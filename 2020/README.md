@@ -17,7 +17,7 @@
 - [Day 13](day-13)
 - [Day 14](day-14)
 - [Day 15](day-15)
-- Day 16
+- [Day 16](day-16)
 - Day 17
 - Day 18
 - Day 19
