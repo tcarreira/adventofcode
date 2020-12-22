@@ -20,7 +20,7 @@
 - [Day 16](day-16)
 - [Day 17](day-17)
 - [Day 18](day-18)
-- Day 19
+- [Day 19](day-19)
 - Day 20
 - Day 21
 - Day 22
