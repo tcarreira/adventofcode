@@ -25,6 +25,5 @@
 - [Day 21](day-21)
 - [Day 22](day-22)
 - [Day 23](day-23)
-- Day 24
-- Day 25
+- [Day 24](day-24)
 
