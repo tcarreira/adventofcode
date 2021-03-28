@@ -1,4 +1,4 @@
-# Solutions to [https://adventofcode.com/2020](https://adventofcode.com/2020)
+# Solutions to [https://adventofcode.com/2020](https://adventofcode.com/2020), in Python
 
 [comment]: <> (Markdown code generated with https://euangoddard.github.io/clipboard2markdown/)
 
