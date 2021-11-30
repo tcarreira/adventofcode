@@ -1,7 +1,5 @@
 # Solutions to [https://adventofcode.com/2020](https://adventofcode.com/2020), in Python
 
-[comment]: <> (Markdown code generated with https://euangoddard.github.io/clipboard2markdown/)
-
 - [Day 01](day-01)
 - [Day 02](day-02)
 - [Day 03](day-03)
@@ -27,4 +25,3 @@
 - [Day 23](day-23)
 - [Day 24](day-24)
 - [Day 25](day-25)
-

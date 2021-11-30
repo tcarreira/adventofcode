@@ -29,7 +29,7 @@ def setup_program_arguments(last=False):
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-    sys.argv = [sys.argv[0], "-o", output_dir]
+    sys.argv = [sys.argv[0], "-o", output_dir, "-y", year]
 
     if last:
         folder_syntax = re.compile("^day-(\\d+)$")
