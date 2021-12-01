@@ -24,4 +24,5 @@ or visit [aoc-to-markdown repository](https://github.com/antonio-ramadas/aoc-to-
 ```
 python3 -m virtualenv .env
 . .env/bin/activate
+pip install -r aoc-to-markdown/requirements.txt
 ```
