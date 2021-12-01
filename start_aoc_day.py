@@ -47,6 +47,9 @@ def setup_program_arguments(last=False):
     elif setup_session_id():  # don't download input again
         sys.argv.append("-i")
 
+    sys.argv.append("-b")
+    sys.argv.append(f"solver.py")
+
 
 def update_readme():
     with fileinput.FileInput(f"{output_dir}README.md", inplace=True) as f:
