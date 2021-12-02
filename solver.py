@@ -10,10 +10,11 @@ test_input = """
 3
 """.strip()
 
+
 def main():
     raw_input = open(currdir.joinpath("input.txt")).read()
     raw_input = test_input  # testing with the example - comment for real input
-    numbers = list(map(int, raw_input.splitlines()))
+    numbers = [int(line) for line in raw_input.splitlines()]
 
     print("Solution to Part 1:")
     print(part1(numbers))
@@ -25,6 +26,7 @@ def main():
 def part1(p_input):
     solution = p_input
     return solution
+
 
 def part2(p_input):
     solution = p_input
