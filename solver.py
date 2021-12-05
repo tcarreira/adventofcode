@@ -11,6 +11,16 @@ test_input = """
 """.strip()
 
 
+def part1(p_input):
+    solution = p_input
+    return solution
+
+
+def part2(p_input):
+    solution = p_input
+    return solution
+
+
 def main():
     raw_input = open(currdir.joinpath("input.txt")).read()
     raw_input = test_input  # testing with the example - comment for real input
@@ -21,16 +31,6 @@ def main():
 
     # print("Solution to Part 2:")
     # print(part2(numbers))
-
-
-def part1(p_input):
-    solution = p_input
-    return solution
-
-
-def part2(p_input):
-    solution = p_input
-    return solution
 
 
 if __name__ == "__main__":
