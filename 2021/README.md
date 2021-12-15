@@ -1,19 +1,30 @@
 # Solutions to [https://adventofcode.com/2021](https://adventofcode.com/2021)
 
-- [Day 01](day-01)
-- [Day 02](day-02)
-- [Day 03](day-03)
-- [Day 04](day-04)
-- [Day 05](day-05)
-- [Day 06](day-06)
-- [Day 07](day-07)
-- [Day 08](day-08)
-- [Day 09](day-09)
-- [Day 10](day-10)
-- [Day 11](day-11)
-- [Day 12](day-12)
-- [Day 13](day-13)
-- [Day 14](day-14)
+You're on a ship at sea when the alarm goes off!
+Apparently, one of the Elves tripped and accidentally sent the sleigh keys flying into the ocean!
+
+Before you know it, you're inside a submarine.
+It has an experimental antenna to track the keys, but you need to boost its signal strength
+(a little meter indicates the antenna's signal strength by displaying 0-50 stars).
+
+In order to save Christmas, you'll need to get all fifty stars by December 25th.
+Collect stars by solving puzzles.
+
+
+- [Day 01](day-01) - Mapping how deep is the ocean floor
+- [Day 02](day-02) - Discovering the submarine's planned route
+- [Day 03](day-03) - Strange noises? Interpret the diagnostic report: find 𝛾, ε, O₂, CO₂
+- [Day 04](day-04) - Playing bingo with the Giant Squid
+- [Day 05](day-05) - Avoiding opaque clouds lines produced by hydrothermal vents.
+- [Day 06](day-06) - Modeling how lanternfish population grows exponentially
+- [Day 07](day-07) - A giant whale wants to eat you! Align the swarm of crabs to blast a hole in the ocean floor
+- [Day 08](day-08) - Fixing the four-digit seven-segment display
+- [Day 09](day-09) - Inside this lava tubes caves, you should avoid the smoke released by small hydrothermal vents
+- [Day 10](day-10) - The navigation subsystem is broken! Find what is wrong with it
+- [Day 11](day-11) - Mesmerize at bioluminescent dumbo octopuses flashing synchronously
+- [Day 12](day-12) - Finding all paths in order to exit the caves labyrinth
+- [Day 13](day-13) - Folding a transparent paper to activate the submarine's thermal camera system
+- [Day 14](day-14) - Finding the optimal polymer formula to reinforce the submarine
 - Day 15
 - Day 16
 - Day 17
