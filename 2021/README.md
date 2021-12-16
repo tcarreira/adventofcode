@@ -26,7 +26,7 @@ Collect stars by solving puzzles.
 - [Day 13](day-13) - Folding a transparent paper to activate the submarine's thermal camera system
 - [Day 14](day-14) - Finding the optimal polymer formula to reinforce the submarine
 - [Day 15](day-15) - Exiting the cave without bumping into chitons
-- Day 16
+- [Day 16](day-16) - Decoding elves BITS message after exiting the cave
 - Day 17
 - Day 18
 - Day 19
