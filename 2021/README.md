@@ -25,7 +25,7 @@ Collect stars by solving puzzles.
 - [Day 12](day-12) - Finding all paths in order to exit the caves labyrinth
 - [Day 13](day-13) - Folding a transparent paper to activate the submarine's thermal camera system
 - [Day 14](day-14) - Finding the optimal polymer formula to reinforce the submarine
-- Day 15
+- [Day 15](day-15) - Exiting the cave without bumping into chitons
 - Day 16
 - Day 17
 - Day 18
