@@ -27,8 +27,7 @@ Collect stars by solving puzzles.
 - [Day 14](day-14) - Finding the optimal polymer formula to reinforce the submarine
 - [Day 15](day-15) - Exiting the cave without bumping into chitons
 - [Day 16](day-16) - Decoding elves BITS message after exiting the cave
-- Day 17
-- Day 18
+- [Day 17](day-17) - Aiming a probe into the trench in order to find the sleigh keys
 - Day 19
 - Day 20
 - Day 21
