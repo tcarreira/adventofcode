@@ -29,8 +29,7 @@ Collect stars by solving puzzles.
 - [Day 16](day-16) - Decoding elves BITS message after exiting the cave
 - [Day 17](day-17) - Aiming a probe into the trench in order to find the sleigh keys
 - [Day 18](day-18) - Helping one of the smaller snailfish with his math homework
-- Day 19
-- Day 20
+- [Day 20](day-20) - Interpret the image using the image enhancement algorithm
 - Day 21
 - Day 22
 - Day 23
