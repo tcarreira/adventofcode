@@ -30,7 +30,7 @@ Collect stars by solving puzzles.
 - [Day 17](day-17) - Aiming a probe into the trench in order to find the sleigh keys
 - [Day 18](day-18) - Helping one of the smaller snailfish with his math homework
 - [Day 20](day-20) - Interpret the image using the image enhancement algorithm
-- Day 21
+- [Day 21](day-21) - Playing Dirac Dice with the submarine computer
 - Day 22
 - Day 23
 - Day 24
