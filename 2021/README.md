@@ -32,6 +32,5 @@ Collect stars by solving puzzles.
 - [Day 20](day-20) - Interpret the image using the image enhancement algorithm
 - [Day 21](day-21) - Playing Dirac Dice with the submarine computer
 - [Day 22](day-22) - Rebooting the submarine's reactor, due to extreme ocean depths
-- Day 23
-- Day 24
+- [Day 23](day-23) - Organizing the stubborn amphipods
 - Day 25
