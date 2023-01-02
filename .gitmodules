@@ -1,3 +1,6 @@
 [submodule "aoc-to-markdown"]
 	path = aoc-to-markdown
 	url = git@github.com:antonio-ramadas/aoc-to-markdown.git
+[submodule "aoc2022"]
+	path = aoc2022
+	url = https://github.com/tcarreira/aoc2022.git
