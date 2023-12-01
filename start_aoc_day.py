@@ -3,7 +3,7 @@ import fileinput
 import os
 import re
 import sys
-from datetime import datetime
+from dotenv import load_dotenv
 
 curdir = os.path.dirname(os.path.realpath(__file__))
 sys.path.insert(1, curdir + "/aoc-to-markdown")
@@ -66,6 +66,7 @@ def update_readme():
 
 
 def main():
+    load_dotenv()
 
     # manually set arguments for aoc_to_markdown
     # (until main accepts arguments)
