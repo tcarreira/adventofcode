@@ -1,6 +1,9 @@
 [submodule "aoc-to-markdown"]
 	path = aoc-to-markdown
-	url = git@github.com:antonio-ramadas/aoc-to-markdown.git
+	#url = git@github.com:antonio-ramadas/aoc-to-markdown.git
+	url = git@github.com:tcarreira/aoc-to-markdown.git
+        rev = main
 [submodule "aoc2022"]
-	path = aoc2022
+	path = 2022
 	url = https://github.com/tcarreira/aoc2022.git
+        rev = latest
