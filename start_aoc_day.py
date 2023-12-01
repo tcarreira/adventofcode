@@ -3,13 +3,15 @@ import fileinput
 import os
 import re
 import sys
+from datetime import datetime, timedelta
 from dotenv import load_dotenv
 
 curdir = os.path.dirname(os.path.realpath(__file__))
-sys.path.insert(1, curdir + "/aoc-to-markdown")
+sys.path.insert(1, curdir + "/aoc-to-markdown")  # xxx: lib does not have __init__
 import aoc_to_markdown
 
-year = datetime.now().year
+# get the same (previous) year for ~11 months after finishing aoc
+year = (datetime.now() - timedelta(days=11*30)).year
 output_dir = f"{year}/"
 
 
@@ -23,6 +25,7 @@ def setup_session_id() -> bool:
         if answer and answer not in "Nn":
             os.environ["SESSION_ID"] = answer
             return True
+    return False
 
 
 def setup_program_arguments(last=False):
