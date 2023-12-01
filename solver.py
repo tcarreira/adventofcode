@@ -24,13 +24,16 @@ def part2(p_input):
 def main():
     raw_input = open(currdir.joinpath("input.txt")).read()
     raw_input = test_input  # testing with the example - comment for real input
-    numbers = [int(line) for line in raw_input.splitlines()]
+
+    # simple treat input
+    p_input = [line for line in raw_input.splitlines()]
+    # p_input = [int(line) for line in raw_input.splitlines()]
 
     print("Solution to Part 1:")
-    print(part1(numbers))
+    print(part1(p_input))
 
     # print("Solution to Part 2:")
-    # print(part2(numbers))
+    # print(part2(p_input))
 
 
 if __name__ == "__main__":
