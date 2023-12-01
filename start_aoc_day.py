@@ -31,6 +31,11 @@ def setup_session_id() -> bool:
 def setup_program_arguments(last=False):
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
+        with open(f"{output_dir}/README.md", "w") as f:
+            f.write(f"# Solutions to [https://adventofcode.com/{year}](https://adventofcode.com/{year})\n\n<Story>\n\n")
+            for i in range(1,26):
+                f.write(f"- Day {i:02d}\n")
+            f.write("\n")
 
     sys.argv = [sys.argv[0], "-o", output_dir, "-y", year]
 
