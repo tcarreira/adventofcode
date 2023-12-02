@@ -3,7 +3,7 @@
 <Story>
 
 - [Day 01](day-01)
-- Day 02
+- [Day 02](day-02)
 - Day 03
 - Day 04
 - Day 05
