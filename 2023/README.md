@@ -6,7 +6,7 @@
 - [Day 02](day-02)
 - [Day 03](day-03)
 - [Day 04](day-04)
-- Day 05
+- [Day 05](day-05)
 - Day 06
 - Day 07
 - Day 08
