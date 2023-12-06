@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 from pathlib import Path
+import math
 
 currdir = Path(__file__).parent.absolute()
 # paste the example from the problem here ↓
@@ -8,6 +9,14 @@ test_input = """
 Time:      7  15   30
 Distance:  9  40  200
 """.strip()
+
+
+def get_min_max(t, d):
+    t, d = t + 0.00001, d + 00000.1  # handle exact solutions
+    sq = math.sqrt(t**2 - 4 * d)
+    s1, s2 = -(-t + sq) / 2, -(-t - sq) / 2
+    return [math.ceil(s1), math.floor(s2)]
+
 
 # 0:07:12
 def part1(p_input):
@@ -24,16 +33,14 @@ def part1(p_input):
         solution *= ways
     return solution
 
-# 0:09:19
+
+# 0:09:19 (with bruteforce :D)
 def part2(p_input):
     time = int("".join([l for l in p_input[0].split(":")[1].split(" ") if l != ""]))
     dist = int("".join([l for l in p_input[1].split(":")[1].split(" ") if l != ""]))
 
-    solution = 0
-    for t in range(time + 1):
-        d = (time - t) * t
-        if d > dist:
-            solution += 1
+    mm = get_min_max(time, dist)
+    solution = mm[1] - mm[0] + 1
     return solution
 
 
